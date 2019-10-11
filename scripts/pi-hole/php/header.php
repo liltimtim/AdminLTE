@@ -308,11 +308,11 @@ if($auth) {
                                 </div>
                                 */ ?>
                                 <!-- PayPal -->
-                                <div class="text-center">
+                                <!-- <div class="text-center">
                                     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3J2L3Z4DHW9UY" target="_blank" style="background:none">
                                         <img src="img/donate.gif" alt="Donate">
                                     </a>
-                                </div>
+                                </div> -->
                             </li>
                         </ul>
                     </li>
@@ -602,11 +602,11 @@ if($auth) {
                 </li>
                 <?php } ?>
                 <!-- Donate -->
-                <li>
+                <!-- <li>
                     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3J2L3Z4DHW9UY" target="_blank">
                         <i class="fa-paypal-icon fab fa-paypal"></i> <span>Donate</span>
                     </a>
-                </li>
+                </li> -->
                 <?php if($auth){ ?>
                 <!-- Help -->
                 <li<?php if($scriptname === "help.php"){ ?> class="active"<?php } ?>>

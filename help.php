@@ -132,12 +132,12 @@
     </div>
 </div>
 <?php } ?>
-<div class="row">
+<!-- <div class="row">
     <div class="col-md-12">
     <h2>Donate</h2>
     Keep in mind that Pi-hole is free. If you like Pi-hole, please consider a small donation to help support its development
     </div>
-</div>
+</div> -->
 <div class="row">
     <div class="col-md-12">
     <h2>Help (this page)</h2>
