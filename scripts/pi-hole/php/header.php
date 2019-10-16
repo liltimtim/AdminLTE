@@ -183,7 +183,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://api.github.com; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'">
-    <title>Pi-hole Admin Console</title>
+    <title>MF-Hole Admin Console</title>
     <!-- Usually browsers proactively perform domain name resolution on links that the user may choose to follow. We disable DNS prefetching here -->
     <meta http-equiv="x-dns-prefetch-control" content="off">
     <meta http-equiv="cache-control" content="max-age=60,private">
@@ -247,9 +247,9 @@ if($auth) {
         <!-- Logo -->
         <a href="http://pi-hole.net" class="logo" target="_blank">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini">P<b>h</b></span>
+            <span class="logo-mini">MF<b>H</b></span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg">Pi-<b>hole</b></span>
+            <span class="logo-lg">MF-<b>Hole</b></span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
@@ -263,15 +263,14 @@ if($auth) {
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
                             <img src="img/logo.svg" class="user-image" style="border-radius: initial" sizes="160x160" alt="Pi-hole logo" />
-                            <span class="hidden-xs">Pi-hole</span>
+                            <span class="hidden-xs">MF-Hole</span>
                         </a>
                         <ul class="dropdown-menu" style="right:0">
                             <!-- User image -->
                             <li class="user-header">
                                 <img src="img/logo.svg" sizes="160x160" alt="User Image" style="border-color:transparent" />
                                 <p>
-                                    Open Source Ad Blocker
-                                    <small>Designed For Raspberry Pi</small>
+                                    Ad Blocker
                                 </p>
                             </li>
                             <!-- Menu Body -->
