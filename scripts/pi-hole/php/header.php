@@ -270,7 +270,7 @@ if($auth) {
                             <li class="user-header">
                                 <img src="img/logo.svg" sizes="160x160" alt="User Image" style="border-color:transparent" />
                                 <p>
-                                    Ad Blocker
+                                    Presented by Mobile First LLC
                                 </p>
                             </li>
                             <!-- Menu Body -->
@@ -278,9 +278,9 @@ if($auth) {
                                 <div class="col-xs-4 text-center">
                                     <a class="btn-link" href="https://github.com/pi-hole" target="_blank">GitHub</a>
                                 </div>
-                                <div class="col-xs-4 text-center">
+                                <!-- <div class="col-xs-4 text-center">
                                     <a class="btn-link" href="https://pi-hole.net" target="_blank">Website</a>
-                                </div>
+                                </div> -->
                                 <div class="col-xs-4 text-center">
                                     <a class="btn-link" href="https://github.com/pi-hole/pi-hole/releases" target="_blank">Updates</a>
                                 </div>
